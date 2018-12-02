@@ -1,6 +1,6 @@
 from flask import Flask
-from flask_restful import Api, Resource, request, reqparse
-from flask_jwt import JWT, jwt_required, current_identity
+from flask_restful import Api, Resource, reqparse
+from flask_jwt import JWT, jwt_required
 
 
 from security import authenticate, identity
